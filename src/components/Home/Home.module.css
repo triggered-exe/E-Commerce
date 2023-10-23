@@ -1,0 +1,126 @@
+.loadingContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Center vertically on the entire viewport height */
+  }
+.mainContainer {
+    position: relative;
+    /* background-color: lightblue; */
+    width: 100%;
+    height: 100vh;
+}
+
+.filterContainer {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    background-color: rgba(0, 0, 0, 0.151);
+    width: 20%;
+    max-width: 170px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.filterContainer label{
+    display: block;
+}
+
+.searchContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+.searchContainer input{
+   outline:none;
+   padding: 5px;
+   text-align: center;
+   /* border: 1px solid gold; */
+   border: none;
+   box-shadow: 0px 0px 15px 1px gold;
+   width: 30%;
+   height: 40%;
+   border-radius: 25px;
+}
+.searchContainer input:hover{
+
+   box-shadow: 0px 0px 15px 1px rgba(133, 132, 127, 0.918);
+
+}
+
+.productsContainer {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+    right: 0;
+    width: 85%;
+    margin-left: auto;
+    min-height: 500px;
+}
+
+.productsContainer .productsList {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    align-items: center;
+    width: 300px;
+    height: 380px;
+    padding: 10px;
+    overflow: hidden;
+    box-shadow: 5px 5px gold;
+    transition: all 0.3s ease;
+}
+.productsContainer .productsList:hover {
+    box-shadow: 5px 5px 5px 5px rgba(133, 132, 127, 0.918);
+}
+.productsContainer .productsList img{
+    width: 200px;
+    height: 60%;
+}
+.productsContainer .productsList .productDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 205px;
+}
+.productsContainer .productsList .productDetails h3{
+   height:20px;
+   overflow: hidden;
+}
+.productsContainer .productsList .productDetails button{
+   border: none;
+   width: 80%;
+   height: 30px;
+   margin-left: 10%;
+   border-radius: 25px;
+   background-color: rgba(75, 84, 219, 0.788);
+   transition: all 0.3s ease;
+}
+.productsContainer .productsList .productDetails button:hover{
+    background-color: rgb(155, 208, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

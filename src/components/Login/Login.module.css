@@ -1,0 +1,33 @@
+.loginContainer {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.loginContainer a{
+    text-decoration: none;
+}
+.loginContainer form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.loginContainer form input{
+   outline: none;
+   border:none;
+   border-bottom: 1px solid grey;
+}
+.loginContainer form button{
+   outline: none;
+   border:none;
+   color: white;
+   background-color: rgba(75, 84, 219, 0.788);
+   height: 25px;
+   transition: all 0.3s ease;
+   cursor: pointer;
+}
+.loginContainer form button:hover{
+    background-color: rgba(79, 88, 207, 0.555);
+
+}

@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: rgba(75, 84, 219, 0.788);
+    color: white;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.navbar .title{
+    flex-grow: 1;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+.navbar .linksContainer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 50px;
+    flex-grow: 2;
+    padding: 10px;
+}
+.navbar div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+

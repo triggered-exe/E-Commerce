@@ -1,0 +1,86 @@
+
+.cartHeader {
+    display: flex;
+    height: 30px;
+    padding: 15px;
+    align-items: center;
+    background-color: #ecfff6d8;
+}
+.cartHeader .title {
+    flex: 2;
+    overflow: hidden;
+}
+.cartHeader .quantity {
+    display: flex;
+    flex: 1;
+}
+.cartHeader .price {
+    flex: 1;
+}
+.product {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    background-color: rgba(128, 128, 128, 0.322);
+    padding: 15px;
+    margin: 5px;
+}
+.product .title {
+    flex: 2;
+    overflow: hidden;
+}
+.product .quantity {
+    display: flex;
+    flex: 1;
+}
+.product .price {
+    flex: 1;
+}
+
+/* Styles for the + and - buttons */
+.product .quantityButtons button {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Text color */
+    border: none; /* Remove borders */
+    padding: 5px 10px; /* Padding for the buttons */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    margin: 0 5px; /* Add some spacing between the buttons */
+  }
+  
+  /* Hover and active styles for the buttons */
+  .product .quantityButtons button:hover {
+    background-color: #0056b3; /* Button background color on hover */
+  }
+  
+  .product .quantityButtons button:active {
+    background-color: #003d80; /* Button background color when clicked */
+  }
+
+  .checkoutContainer {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+  }
+  .checkoutContainer .total {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    background-color: rgb(255, 200, 47);
+    justify-content: center;
+    align-items: center;
+  }
+  .checkoutContainer .placeOrder{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    background-color: greenyellow;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  .checkoutContainer .placeOrder:hover{
+    background-color: rgba(127, 190, 31, 0.781);
+  }
